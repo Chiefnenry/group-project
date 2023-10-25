@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      /*  overflow-x: : hidden;*/
+}
+ body{
+    overflow: none;
+ /*   background-color: ;*/
+    overflow-x: hidden;
+    width: 100%;
+
+ }
+    /* Styling hero section */
+    /* Hero-section background image */
+
+.hero-section{
+    background-image: linear-gradient(rgba(0, 45, 76, 0.6),rgba(0, 0, 0, 0.6)), url(Assets/hero_1.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+    /* Styling the logo */
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 20px;
+    left: 690px;
+    font-weight: bold;
+}
+
+    /* Making the red dot */
+.red-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 828px;
+    top: 62px;
+}
+
+    /* Positioning of the links */
+.nav-links{
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    left: 30px;
+}
+
+    /* Styling the links */
+.hero-section .nav-links a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+    /* Hovering effects of links */
+.hero-section .nav-links a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 7px;
+}
+
+
+    /* Styling the hero heading */
+.hero-heading h1{
+    color: white;
+    font-size: 80px;
+    width: 1000px;
+}
+
+.hero-heading h1.second-heading-line{
+    color: white;
+    font-size: 80px;
+    width: 1000px;
+    position: absolute;
+    right: 70px;
+}
+
+    /* Position the header */
+.hero-heading{
+    position: absolute;
+    top: 320px;
+    left: 400px;
+    line-height: 40px;
+}
+
+    /* position the sponsor text */
+.sponsor{
+    position: absolute;
+    top: 480px;
+    left: 500px;
+}
+
+.sponsor p{
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+    /* Giving freehtml5.co red underline style */
+.sponsor p span{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+    /* Hero section styling ends here */
+
+
+    /* Section 1 styling begins here */
+    /* Section-1 background */
+    .section-1{
+        background-color: #1A1A1A;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+}
+
+    /* styling nav-links */
+.nav-links a{
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+.nav-links{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 300px;
+}
+
+.nav-links a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 7px;
+}
+
+.section1-content .content-image img{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 160px;
+}
+
+.section1-content{
+    display: flex;
+}
+
+.section1-content .text-section h3{
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: -55px;
+    position: relative;
+    right: 25px;
+    bottom: 30px;
+}
+
+.section1-content .text-section p{
+    color: grey;
+    width: 450px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 25px;
+}
+
+.second-paragraph{
+    color: grey;
+    width: 300px;
+    margin-top: 200px;
+    position: relative;
+    bottom:25px;
+}
+
+.text-section{
+    position: absolute;
+    top: 180px;
+    left: 850px;
+    
+}
+
+.section-1-btn{
+    border: 1px solid red;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 418px;
+}
+
+    /* Section one styling ends here */
+
+/*section two(gallery) styling starts here*/
+
+#gallery .items {
+    width: 50%;
+    min-width: 250px;
+    margin-left: 60px;
+    padding-right: 10px 12px;
+    position: relative;
+    right: 100px;
+    bottom: 40px;
+}
+
+#gallery .items .des {
+    color: #fff;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+#gallery .items .price {
+    color: yellow;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+#gallery .items p {
+    font-size: small;
+    font-weight: 400;
+    color: #696969;
+    margin: 15px 0 20px 0;
+}
+#gallery .container {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+   /* margin-left: 50px;*/
+}
+
+#gallery .container .items-2, .items-4 {
+    margin-top: 130px;
+}
+
+.items img {
+    width: 100%;
+}
+
+    /* Section 2 styling ends here */
+
+    /* Section 3 styling starts here */
+    .sub-general{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        margin-top: 105px;
+        padding-bottom: 30px;
+
+        /*align-items: center;*/
+    
+    }
+    .div1,.div2,.div3{
+    /*	border: 2px solid black;*/
+        background-image: url(Assets/broken_noise.png);
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        margin: 15px;
+        
+    }
+    img{
+        width: 290px;
+        height: 240px;
+        padding-bottom: 2em;
+    }
+    .sub-general p{
+            width: 270px;
+            height: 50px;
+            text-align: left;
+            /*padding: 15px;*/
+            color: silver;
+            margin-bottom: 3em;
+            padding-left: 20px;
+    }
+    h3{
+        color: white;
+        font-weight: lighter;
+        padding-bottom: 2em;
+        text-align: left;
+        padding-left: 20px;
+    }
+    #images{
+        text-align: left;
+        cursor: pointer;
+        background-image: url(Assets/broken_noise.png);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+    
+    }
+
+    .general{
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+        padding-top: 5px;
+    }
+
+    #images > .img > img{
+        width: 15px;
+        height: 15px;
+        vertical-align: text-top;
+        padding-right: 1px;
+    
+    
+        /*text-align: center;*/
+    }
+    em{
+        line-height: 0.5px;
+        font-size: 12px
+    }
+    .position1,.position2{
+        position: relative;
+        left: 60px;
+    }
+    #images a{
+        text-decoration: none;
+        color: red;
+    }
+    #images a:hover{
+        color:maroon;
+        transition: 0.2s;
+    }
+
+    #footer-section {
+        background-color: #1a1a1a;
+        margin: auto;
+        color: #fff;
+        padding-top: 30px;
+       }
+       
+       div.footer-item1 {
+        margin-left: 100px;
+        width: 400px;
+       }
+       
+       div.footer-item2 {
+        position: relative;
+        left: 600px; 
+        bottom: 115px;
+       }
+       
+       div.footer-item3 {
+        position: relative;
+        left: 800px;
+        bottom: 235px; 
+       }
+       
+       div.footer-item4 {
+        position: relative;
+        left: 1000px;
+        bottom: 380px;
+       }
+       
+       div.copyright {
+        text-align: center;
+        position: relative;
+        bottom: 120px;
+       }
+       
+       div.design {
+        text-align: center;
+        position: relative;
+        bottom: 115px;
+       }
+       
+       div.design > p > span {
+        color: red;
+       }
+       
+       div.footer-item2 ul.list-item1 li {
+        list-style: none;
+       }
+       h4{
+        margin-bottom: 2em;
+       }
+       
+       div.footer-item3 ul.list-item2 li {
+        list-style-type: none;
+       }
+       
+       div.footer-item4 ul.list-item1 li {
+        list-style-type: none;
+       }
+
+       @media screen and (max-width: 320px) {
+        body{
+            background-color: red;
+        }
+        .nav-links {
+            display: none;
+        }
+       }
